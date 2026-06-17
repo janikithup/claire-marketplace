@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claire-marketplace",
+  "owner": {
+    "name": "claire-contributors",
+    "url": "https://github.com/janikithup/Claire"
+  },
+  "plugins": [
+    {
+      "name": "claire",
+      "description": "De-priming adversarial critic for Claude Code: /claire:challenge routes a plan, claim or decision to the right critic; /claire:blank gives a cold outside read. The critic's brief is stripped of the answer you expect and the de-priming is enforced by a receipt, not a self-typed marker. Not always-on.",
+      "defaultEnabled": false,
+      "source": {
+        "source": "github",
+        "repo": "janikithup/Claire"
+      },
+      "version": "0.2.1",
+      "tags": [
+        "adversarial",
+        "critique",
+        "reasoning",
+        "de-priming"
+      ]
+    }
+  ]
+}
