@@ -11,8 +11,8 @@
       "description": "De-priming adversarial critic for Claude Code: /claire:challenge routes a plan, claim or decision to the right critic; /claire:blank gives a cold outside read. The critic's brief is stripped of the answer you expect and the de-priming is enforced by a receipt, not a self-typed marker. Not always-on.",
       "defaultEnabled": false,
       "source": {
-        "source": "github",
-        "repo": "janikithup/Claire"
+        "source": "url",
+        "url": "https://github.com/janikithup/Claire.git"
       },
       "version": "0.4.4",
       "tags": [
